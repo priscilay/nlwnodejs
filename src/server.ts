@@ -8,6 +8,8 @@ import { router } from "./routes";
 import "./database"
 
 const app = express();
+
+//estudar para habilitar para outras apps
 app.use(cors());
 
 app.use(express.json());
